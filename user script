@@ -3,7 +3,7 @@
 // @namespace    1312141991@qq.com
 // @version      0.4
 // @description  百度，你挡住我看背景图了！
-// @theoriginal author       及小路,the moders is magiks
+// @author       及小路
 // @match        https://www.baidu.com/
 // @grant        none
 // ==/UserScript==
@@ -16,7 +16,7 @@
     document.getElementById("bottom_layer").remove();
     document.getElementById("s_lm_wrap").remove();
     document.getElementById("s_side_wrapper").remove();
-
+    document.getElementById("s_lg_img").remove();
     //可调部位
     var opa = 0;//调整初始透明度，数值在0-10，数字越小透明度越高（0是全透明，10是不透明）
 
